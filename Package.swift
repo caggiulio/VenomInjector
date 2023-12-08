@@ -3,33 +3,33 @@
 import PackageDescription
 
 let package = Package(
-    name: "Resolver",
+    name: "VenomInjector",
     platforms: [
-        .iOS(.v11),
+        .iOS(.v16),
         .macOS(.v10_14),
         .tvOS(.v13),
         .watchOS(.v6)
     ],
     products: [
         .library(
-            name: "Resolver",
-            targets: ["Resolver"]),
+            name: "VenomInjector",
+            targets: ["VenomInjector"]),
         .library(
-            name: "Resolver-Static",
+            name: "VenomInjector-Static",
             type: .static,
-            targets: ["Resolver"]),
+            targets: ["VenomInjector"]),
         .library(
-            name: "Resolver-Dynamic",
+            name: "VenomInjector-Dynamic",
             type: .dynamic,
-            targets: ["Resolver"]),
+            targets: ["VenomInjector"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "Resolver",
+            name: "VenomInjector",
             dependencies: []),
         .testTarget(
-            name: "ResolverTests",
-            dependencies: ["Resolver"]),
+            name: "VenomInjectorTests",
+            dependencies: ["VenomInjector"]),
     ]
 )
