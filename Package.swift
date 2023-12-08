@@ -13,15 +13,7 @@ let package = Package(
     products: [
         .library(
             name: "VenomInjector",
-            targets: ["VenomInjector"]),
-        .library(
-            name: "VenomInjector-Static",
-            type: .static,
-            targets: ["VenomInjector"]),
-        .library(
-            name: "VenomInjector-Dynamic",
-            type: .dynamic,
-            targets: ["VenomInjector"]),
+            targets: ["VenomInjector"])
     ],
     dependencies: [],
     targets: [

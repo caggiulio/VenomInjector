@@ -21,25 +21,10 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		4C653ED2246EC80700131637 /* ResolverArgumentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C653ED1246EC80700131637 /* ResolverArgumentTests.swift */; };
-		4C9BFB0C2357D98800E6FB80 /* ResolverInjectedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9BFB0B2357D98800E6FB80 /* ResolverInjectedTests.swift */; };
-		4CA289B625771DF6000C6F95 /* ResolverCyclicDependencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA289B525771DF6000C6F95 /* ResolverCyclicDependencyTests.swift */; };
 		4DD37C032B23279C0024E8A8 /* Inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD37C022B23279C0024E8A8 /* Inject.swift */; };
 		4DD37C052B2327B60024E8A8 /* Scopes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD37C042B2327B60024E8A8 /* Scopes.swift */; };
 		OBJ_40 /* VenomInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* VenomInjector.swift */; };
 		OBJ_47 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_58 /* ResolverBasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ResolverBasicTests.swift */; };
-		OBJ_59 /* ResolverClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* ResolverClassTests.swift */; };
-		OBJ_60 /* ResolverContainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* ResolverContainerTests.swift */; };
-		OBJ_61 /* ResolverNameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* ResolverNameTests.swift */; };
-		OBJ_62 /* ResolverProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* ResolverProtocolTests.swift */; };
-		OBJ_63 /* ResolverScopeNameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* ResolverScopeNameTests.swift */; };
-		OBJ_64 /* ResolverScopeReferenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* ResolverScopeReferenceTests.swift */; };
-		OBJ_65 /* ResolverScopeValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* ResolverScopeValueTests.swift */; };
-		OBJ_66 /* ResolverStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* ResolverStoryboardTests.swift */; };
-		OBJ_68 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* TestData.swift */; };
-		OBJ_69 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* XCTestManifests.swift */; };
-		OBJ_71 /* VenomInjector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Resolver::Resolver::Product" /* VenomInjector.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,28 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4C653ED1246EC80700131637 /* ResolverArgumentTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResolverArgumentTests.swift; sourceTree = "<group>"; };
-		4C9BFB0B2357D98800E6FB80 /* ResolverInjectedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResolverInjectedTests.swift; sourceTree = "<group>"; };
-		4CA289B525771DF6000C6F95 /* ResolverCyclicDependencyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolverCyclicDependencyTests.swift; sourceTree = "<group>"; };
 		4DD37C022B23279C0024E8A8 /* Inject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inject.swift; sourceTree = "<group>"; };
 		4DD37C042B2327B60024E8A8 /* Scopes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scopes.swift; sourceTree = "<group>"; };
-		OBJ_12 /* ResolverBasicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolverBasicTests.swift; sourceTree = "<group>"; };
-		OBJ_13 /* ResolverClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolverClassTests.swift; sourceTree = "<group>"; };
-		OBJ_14 /* ResolverContainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolverContainerTests.swift; sourceTree = "<group>"; };
-		OBJ_15 /* ResolverNameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolverNameTests.swift; sourceTree = "<group>"; };
-		OBJ_16 /* ResolverProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolverProtocolTests.swift; sourceTree = "<group>"; };
-		OBJ_17 /* ResolverScopeNameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolverScopeNameTests.swift; sourceTree = "<group>"; };
-		OBJ_18 /* ResolverScopeReferenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolverScopeReferenceTests.swift; sourceTree = "<group>"; };
-		OBJ_19 /* ResolverScopeValueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolverScopeValueTests.swift; sourceTree = "<group>"; };
-		OBJ_20 /* ResolverStoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolverStoryboardTests.swift; sourceTree = "<group>"; };
-		OBJ_22 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
-		OBJ_23 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_30 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		OBJ_34 /* _config.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = _config.yml; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* VenomInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenomInjector.swift; sourceTree = "<group>"; };
-		"Resolver::Resolver::Product" /* VenomInjector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VenomInjector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Resolver::ResolverTests::Product" /* VenomInjectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = VenomInjectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Resolver::Resolver::Product" /* VenomInjector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = VenomInjector.framework; path = "/Users/nunziogiuliocaggegi/Developer/VenomInjector/build/Debug-iphoneos/VenomInjector.framework"; sourceTree = "<absolute>"; };
+		"Resolver::ResolverTests::Product" /* VenomInjectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; name = VenomInjectorTests.xctest; path = "/Users/nunziogiuliocaggegi/Developer/VenomInjector/build/Debug-iphoneos/VenomInjectorTests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_71 /* VenomInjector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,41 +76,9 @@
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_11 /* VenomInjectorTests */,
 			);
 			name = Tests;
 			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_11 /* VenomInjectorTests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_12 /* ResolverBasicTests.swift */,
-				OBJ_13 /* ResolverClassTests.swift */,
-				4C653ED1246EC80700131637 /* ResolverArgumentTests.swift */,
-				OBJ_14 /* ResolverContainerTests.swift */,
-				OBJ_15 /* ResolverNameTests.swift */,
-				OBJ_16 /* ResolverProtocolTests.swift */,
-				OBJ_17 /* ResolverScopeNameTests.swift */,
-				OBJ_18 /* ResolverScopeReferenceTests.swift */,
-				OBJ_19 /* ResolverScopeValueTests.swift */,
-				OBJ_20 /* ResolverStoryboardTests.swift */,
-				4CA289B525771DF6000C6F95 /* ResolverCyclicDependencyTests.swift */,
-				4C9BFB0B2357D98800E6FB80 /* ResolverInjectedTests.swift */,
-				OBJ_22 /* TestData.swift */,
-				OBJ_23 /* XCTestManifests.swift */,
-			);
-			name = VenomInjectorTests;
-			path = Tests/VenomInjectorTests;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_24 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				"Resolver::ResolverTests::Product" /* VenomInjectorTests.xctest */,
-				"Resolver::Resolver::Product" /* VenomInjector.framework */,
-			);
-			name = Products;
-			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		OBJ_5 = {
 			isa = PBXGroup;
@@ -148,7 +86,6 @@
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
-				OBJ_24 /* Products */,
 				OBJ_30 /* LICENSE */,
 				OBJ_34 /* _config.yml */,
 			);
@@ -241,7 +178,7 @@
 				Base,
 			);
 			mainGroup = OBJ_5;
-			productRefGroup = OBJ_24 /* Products */;
+			productRefGroup = OBJ_5;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -276,20 +213,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_58 /* ResolverBasicTests.swift in Sources */,
-				4C9BFB0C2357D98800E6FB80 /* ResolverInjectedTests.swift in Sources */,
-				OBJ_59 /* ResolverClassTests.swift in Sources */,
-				OBJ_60 /* ResolverContainerTests.swift in Sources */,
-				OBJ_61 /* ResolverNameTests.swift in Sources */,
-				OBJ_62 /* ResolverProtocolTests.swift in Sources */,
-				OBJ_63 /* ResolverScopeNameTests.swift in Sources */,
-				OBJ_64 /* ResolverScopeReferenceTests.swift in Sources */,
-				OBJ_65 /* ResolverScopeValueTests.swift in Sources */,
-				4CA289B625771DF6000C6F95 /* ResolverCyclicDependencyTests.swift in Sources */,
-				OBJ_66 /* ResolverStoryboardTests.swift in Sources */,
-				OBJ_68 /* TestData.swift in Sources */,
-				OBJ_69 /* XCTestManifests.swift in Sources */,
-				4C653ED2246EC80700131637 /* ResolverArgumentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
