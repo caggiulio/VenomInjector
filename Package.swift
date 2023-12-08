@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "VenomInjector",
     platforms: [
-        .iOS(.v16),
+        .iOS(.v11),
         .macOS(.v10_14),
         .tvOS(.v13),
         .watchOS(.v6)
